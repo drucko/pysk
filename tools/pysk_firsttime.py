@@ -1,5 +1,5 @@
-u_philwo = User.objects.create(username='philwo', first_name='Philipp', last_name='Wollermann', email='philipp@igowo.de', is_superuser=True, is_staff=True, is_active=True)
-u_philwo.set_password('ABCDEFGHIJ')
+u_philwo = User.objects.create(username='staffadmin', first_name='Philipp', last_name='Wollermann', email='philipp@igowo.de', is_superuser=True, is_staff=True, is_active=True)
+u_philwo.set_password('admin')
 u_philwo.save()
 u = User.objects.create(username='YYYUSERNAMEYYY', first_name='', last_name='', email='', is_superuser=False, is_staff=True, is_active=True)
 u.set_password('YYYPASSWORDYYY')
