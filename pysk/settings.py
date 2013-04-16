@@ -140,3 +140,10 @@ INSTALLED_APPS = (
     'pysk.app',
     'pysk.vps',
 )
+
+
+
+try:
+	from local_settings import *
+except ImportError:
+	pass
